@@ -1,0 +1,13 @@
+{
+  "name": "tsimulus-exporter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "Apache",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
