@@ -1,13 +1,19 @@
 {
   "name": "tsimulus-exporter",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Node-js client exporting timeseries from tsimulus-ms into influxdb",
+  "author": {
+    "name": "Alexandre Nuttinck",
+    "email": "alexandre.nuttinck@cetic.be"
+	},
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "license": "Apache",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+	"influx": "5.0.7",
+	"cors": "2.8.4"
   }
 }

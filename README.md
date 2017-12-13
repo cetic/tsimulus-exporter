@@ -20,7 +20,7 @@ git clone https://github.com/cetic/tsimulus-exporter.git
 Get started by installing and importing everything we need! We assume you're running Node 6. (You can download nodejs [here](https://nodejs.org/en/download/))
 
 ```
-npm install influx express cors
+npm install
 ```
 
 Before running it, we need that the influxdb is available. An image Docker is available [here](https://hub.docker.com/_/influxdb/).
